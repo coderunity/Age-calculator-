@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.agecalclator{
+    margin: 200px auto;
+    width: 500px;
+}
+
+input#button {
+    text-align: center;
+    width: 100%;
+}
+
+.result{
+    background-color: rgb(173, 255, 228);
+    border-radius: 10px;
+}
+
+.result p {
+    padding: 4px 11px 11px 12px;
+    font-weight: 600;
+    color: #1101ff;
+}
