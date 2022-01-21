@@ -44,7 +44,7 @@ let day = total_day - (total_year * 12 * main_months) - (month * main_months);
 result.innerHTML = `
 
 <p> Hello ${name} </p>
-<p> And your : ${total_year} Year </p>
+<p> And your : ${total_year} years Old </p>
 <p> And your : ${total_month} Months </p>
 <p> And your : ${total_week} Week </p>
 <p> And your :  ${total_day} Day</p>
@@ -53,7 +53,7 @@ result.innerHTML = `
 <p> And your : ${totalagesell} Seconds</p>
 <p> And your Status : ${select_item.value} </p>
 
-<p> And your :  ${day} / ${month} / ${total_year} </p>
+<p> And your :  ${day > 24 ? day : '0'+ day} / ${month > main_months ? month : '0'+ month} / ${total_year} </p>
 
 
 `;
